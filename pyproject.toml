@@ -1,0 +1,17 @@
+[project]
+name = "fastapipost"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "talha-naeem", email = "naeemt970@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+fastapipost = "fastapipost:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
